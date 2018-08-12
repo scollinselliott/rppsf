@@ -11,5 +11,5 @@ Data can be found at:
 
 Analysis was carried out using Python and R.
 
--	rppsf-ontology.py – Redefines artifacts in terms of and rescales finds quantities through subsampling.
+-	[rppsf-ontology.py](https://github.com/scollinselliott/rppsf/blob/master/python/rppsf-ontology.py) – Redefines artifacts in terms of and rescales finds quantities through subsampling.
 -	rppsf-kde.r - Produces the kernel density estimate and resamples, as well as the jitter and scatterplots in the paper.
