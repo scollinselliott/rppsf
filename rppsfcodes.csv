@@ -1,0 +1,74 @@
+code,name,quantmethod
+AGS,Whetstone,c
+AIG,Needle,c
+AIP,Peg,c
+ALN,Awl,c
+ANO,Ring,c
+APH,Harness Mount,c
+APP,Appliqué,c
+BAG,Finger Ring,c
+BIN,Binding,c
+BQY,Brick and mortar,p
+BQZ,Collapsed brickwork/floor,p
+BRQ,Brick,p
+BTH,Harness Button,c
+BTN,Button,c
+CDN,Door Bolt,c
+CHA,Hinge,c
+CHE,Chain,c
+CLE,Key,c
+CLO,Nail,w
+COL,Necklace,c
+COZ,Collar,c
+CRA,Pivot,c
+CRD,Cord,c
+CRS,Hook,c
+DEC,Decoration,c
+DEJ,Dice,c
+ECL,Anvil,c
+EPE,Sword,c
+EPG,Pin,c
+EPZ,Dress Pin,c
+FIB,Fibula,c
+FLW,Flow,w
+HEM,Hematite,w
+JHA,Harness Junction,c
+KNO,Knob,c
+LAM,Lamina,w
+LMP,Lamp,c
+NVT,Shuttle Thread,c
+PCT,Tweezers,c
+PDH,Harness Pendant,c
+PDS,Weight,c
+MEU,Millstone,c
+PSN,Loomweight,c
+PZZ,Personal,c
+SCA,Scraper,c
+SGT,Double Rings,c
+SLA,Slag,w
+SPA,Spacer,c
+SPV,Vessel Support,c
+STU,Stud,c
+TAC,Tack,c
+TEG,Tile,p
+TES,Tessera,c
+TOO,Tool,c
+VSH,Vessel Handle,c
+VSL,Vessel Lid,c
+VSR,Vessel Rim,c
+WAS,Waster,c
+TGE,Tile Stamp,p
+MVO,Votive Mold,c
+ZZZ,Other,
+PGR,Grinding Stone,c
+MTR,Mortar,p
+PCO,Conglomerate Stone,p
+SCU,Sculptural,p
+PAR,Stone - Architectural,p
+YYY,Non ID,
+COQ,Shell,
+DAU,Daub,p
+OPS,Opus Signinum,p
+PMA,Marble Plaque,p
+INS,Inscription Block,p
+BLV,Bulla,c
