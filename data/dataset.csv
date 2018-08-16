@@ -2,9 +2,6 @@ phases,sfcode,numfr,numint,weight
 CM Topsoil,ZZZ,0,1,10
 CM Topsoil,PSN,1,0,100
 CM Topsoil,EPZ,0,1,1
-CMM,YYY,1,0,35
-CMM,EPZ,1,0,1
-CMM,INS,1,0,1458
 CN Medieval,MTR,2,0,43
 CN Medieval,TOO,0,1,3
 CN Topsoil,CLO,1,0,5
