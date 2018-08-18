@@ -118,6 +118,9 @@ sites = []
 for i in dataset:
     if i[0] not in sites:
         sites.append(i[0])
+        
+#remove phases and sites which belong to topsoil/medieval contexts to avoid contamination
+#remove Colle Massari (insufficient finds data for effective subsampling)
 sites.remove('CN Topsoil')
 sites.remove('MZ Topsoil')
 sites.remove('PI Topsoil')
@@ -131,6 +134,8 @@ lfinds = []
 for i in dataset:
     if i[1] not in lfinds:
         lfinds.append(i[1])
+        
+#remove nonid and unid finds, as well as nonsf
 lfinds.remove('YYY')
 lfinds.remove('ZZZ')
 lfinds.remove('LMP') #remove lamp fragments (part of ceramic assemblage)
