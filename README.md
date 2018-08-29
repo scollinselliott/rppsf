@@ -18,4 +18,4 @@ This process, of the functional interpretation of artifacts, can be described su
 
 For the sake of convenience, every find was a three-letter code, based off of those used in [Artefacts: Encyclopédie collaborative en ligne des objets archéologiques](http://artefacts.mom.fr/en/codes.php), with a few additions. The full list of definitions can be found [here](https://github.com/scollinselliott/rppsf/blob/master/data/rppsfcodes.csv).
 
-!(http://volweb.utk.edu/~scolli46/assets/images/fig04-952x620.png)
+![Semantic graph](http://volweb.utk.edu/~scolli46/assets/images/fig04-952x620.png)
