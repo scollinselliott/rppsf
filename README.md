@@ -8,13 +8,13 @@ Information may also be found at [https://volweb.utk.edu/~scolli46/rppsf.html](h
 
 The code below depends on the following csv files which contain the semantic graph, as the original graph was composed in Gephi and exported: 
 
-> [nodes.csv](https://github.com/scollinselliott/rppsf/blob/master/data/nodes.csv) - the nodes of the network.
-> [edges.csv](https://github.com/scollinselliott/rppsf/blob/master/data/edges.csv) - the links of the network.
-> [sfcodes.csv](https://github.com/scollinselliott/rppsf/blob/master/data/sfcodes.csv) - a list of codes used for the RPP small finds assemblage, derived from [rppsfnodes.csv](https://github.com/scollinselliott/rppsf/blob/master/data/sfnodes.csv).
-> [rppsfnodes.csv](https://github.com/scollinselliott/rppsf/blob/master/data/sfnodes.csv) - definitions and metrics of each artifact-type.
+> *[nodes.csv](https://github.com/scollinselliott/rppsf/blob/master/data/nodes.csv) - the nodes of the network.
+> *[edges.csv](https://github.com/scollinselliott/rppsf/blob/master/data/edges.csv) - the links of the network.
+> *[sfcodes.csv](https://github.com/scollinselliott/rppsf/blob/master/data/sfcodes.csv) - a list of codes used for the RPP small finds assemblage, derived from [rppsfnodes.csv](https://github.com/scollinselliott/rppsf/blob/master/data/sfnodes.csv).
+> [*rppsfnodes.csv](https://github.com/scollinselliott/rppsf/blob/master/data/sfnodes.csv) - definitions and metrics of each artifact-type.
 
 A more compact version of the network is available in JSON:
-> [rppsf.json](https://github.com/scollinselliott/rppsf/blob/master/data/rppsf.json) - full graph with nodes and links.
+> *[rppsf.json](https://github.com/scollinselliott/rppsf/blob/master/data/rppsf.json) - full graph with nodes and links.
 
 1. [Uploading converting the csv files to a python dictionary.](https://github.com/scollinselliott/rppsf/blob/516fb8f87a1285575b49bf1c605e646287f5e02f/python/rppsf-ontology.py#L1-L46)
 
