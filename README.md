@@ -12,3 +12,39 @@ The code below depends on the following csv files which contain the semantic gra
 [sfnodes.csv](https://github.com/scollinselliott/rppsf/blob/master/data/sfnodes.csv) - the codes used for the RPP small finds assemblage 
 
 1. [Uploading converting the csv files to a python dictionary.](https://github.com/scollinselliott/rppsf/blob/516fb8f87a1285575b49bf1c605e646287f5e02f/python/rppsf-ontology.py#L1-L46)
+
+```python
+#match rppsf codes 
+rppsfcodes = dict()
+with open('rppsf.csv', 'r') as csv_file:
+    reader = csv.reader(csv_file)
+    next(reader, None) #skip header
+    for row in reader:
+        for j in range(len(nodes)):
+            if nodes.get(j) == row[0]:
+                rppsfcodes[j] = row[0]
+
+#define recursive trace function
+def pathtrace(start, depth=10):
+    """ negative depths means unlimited recursion """
+    kats1 = []
+
+    # recursive function that collects all the ids in `acc`
+    def recurse(current, depth):
+        kats1.append(current)
+        if depth != 0:
+            if current != '':
+                for step in steps.get(current):
+                # recursive call for each subfolder
+                    recurse(step, depth-1)
+
+    recurse(start, depth) # starts the recursion
+    return kats1
+
+#run a trace on the semantic map to remap definitions
+semmap = dict()
+for k in nodes.keys():
+    tracing = list(set(pathtrace(k)))
+    tracing = [x for x in tracing if x in signodes.keys()]
+    semmap[k] = tracing
+```
