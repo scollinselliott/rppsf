@@ -9,11 +9,8 @@ Information may also be found at [https://volweb.utk.edu/~scolli46/rppsf.html](h
 The code below depends on the following csv files which contain the semantic graph, as the original graph was composed in Gephi and exported: 
 
 > [nodes.csv](https://github.com/scollinselliott/rppsf/blob/master/data/nodes.csv) - the nodes of the network.
-
-> [edges.csv](https://github.com/scollinselliott/rppsf/blob/master/data/edges.csv) - the links of the network. 
-
+> [edges.csv](https://github.com/scollinselliott/rppsf/blob/master/data/edges.csv) - the links of the network.
 > [sfcodes.csv](https://github.com/scollinselliott/rppsf/blob/master/data/sfcodes.csv) - a list of codes used for the RPP small finds assemblage, derived from [rppsfnodes.csv](https://github.com/scollinselliott/rppsf/blob/master/data/sfnodes.csv).
-
 > [rppsfnodes.csv](https://github.com/scollinselliott/rppsf/blob/master/data/sfnodes.csv) - definitions and metrics of each artifact-type.
 
 A more compact version of the network is available in JSON:
