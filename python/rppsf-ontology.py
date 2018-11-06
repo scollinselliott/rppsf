@@ -127,7 +127,7 @@ sites.remove('PI Topsoil')
 sites.remove('MZ4')
 sites.remove('CN Medieval')
 sites.remove('CMM')
-sites.remove('CM')
+sites.remove('CM Topsoil')
 
 #list of finds
 lfinds = []
