@@ -298,7 +298,7 @@ scale_color_gradient(low = "blue", high = "red") +
 #scale_color_gradient2(midpoint= median(mdsdata2$craft.production), low="blue", mid="white",
 #                     high="red", space ="Lab" ) +
 geom_text(aes(label = site), size = 5, hjust=-0.25) +
-  scale_x_continuous("coordinate 1", limits = c(-1,2)) + 
+  scale_x_continuous("coordinate 1") + #, limits = c(-1,2)) + 
   scale_y_continuous("coordinate 2") + #ggtitle(expression(paste("Non-Metric MDS of RPP Sites Using Modes of Indices (argmax ", hat(X),")"))) + 
 theme_classic()
 
@@ -309,7 +309,7 @@ scale_color_gradient(low = "blue", high = "red") +
 #scale_color_gradient2(midpoint= median(mdsdata2$exchange), low="blue", mid="white",
 #                     high="red", space ="Lab" ) +
 geom_text(aes(label = site), size = 5, hjust=-0.25) +
-  scale_x_continuous("coordinate 1", limits = c(-1,2)) + 
+  scale_x_continuous("coordinate 1") + #, limits = c(-1,2)) + 
   scale_y_continuous("coordinate 2") + #ggtitle(expression(paste("Non-Metric MDS of RPP Sites with Mode of Resampled Estimates (", hat(X),")"))) + 
 theme_classic()
 
@@ -320,7 +320,7 @@ scale_color_gradient(low = "blue", high = "red") +
 #scale_color_gradient2(midpoint= median(mdsdata2$exchange), low="blue", mid="white",
 #                     high="red", space ="Lab" ) +
 geom_text(aes(label = site), size = 5, hjust=-0.25) +
-  scale_x_continuous("coordinate 1", limits = c(-1,2)) + 
+  scale_x_continuous("coordinate 1") + #, limits = c(-1,2)) + 
   scale_y_continuous("coordinate 2") + #ggtitle(expression(paste("Non-Metric MDS of RPP Sites with Mode of Resampled Estimates (", hat(X),")"))) + 
 theme_classic()
 
@@ -333,7 +333,7 @@ geom_point(size = 5, alpha = 0.5) +
 #scale_color_gradient2(midpoint= median(mdsdata2$craft.production), low="blue", mid="white",
 #                     high="red", space ="Lab" ) +
 geom_text(aes(label = site), size = 5, hjust=-0.25, show.legend = FALSE) +
-  scale_x_continuous("coordinate 1", limits = c(-1,2)) + 
+  scale_x_continuous("coordinate 1") + #, limits = c(-1,2)) + 
   scale_y_continuous("coordinate 2") + #ggtitle(expression(paste("Non-Metric MDS of RPP Sites with Mode of Resampled Estimates (", hat(X),")"))) +
 theme_classic()
 
