@@ -7,7 +7,7 @@ library(fitdistrplus)
 library(devtools)
 library(cowplot)
 
-setwd("E:/Research/2018 Small Finds/2017 JMA Revision/scripts") 
+setwd("C:/...") #insert working directory
 
 ######################
 mz1 = read.csv("result-MZ1.csv", header = TRUE)
