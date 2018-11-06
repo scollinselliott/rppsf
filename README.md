@@ -13,6 +13,8 @@ The code below depends on the following csv files which contain the semantic gra
 > * [edges.csv](https://github.com/scollinselliott/rppsf/blob/master/data/edges.csv) - the links of the network.
 > * [sfcodes.csv](https://github.com/scollinselliott/rppsf/blob/master/data/sfcodes.csv) - a list of codes used for the RPP small finds assemblage, derived from [rppsfnodes.csv](https://github.com/scollinselliott/rppsf/blob/master/data/sfnodes.csv).
 > * [rppsfnodes.csv](https://github.com/scollinselliott/rppsf/blob/master/data/sfnodes.csv) - definitions and metrics of each artifact-type.
+> * [qmethod.csv](https://github.com/scollinselliott/rppsf/blob/master/data/qmethod.csv) - quantitative metric used for each artifact-type (c: count, w: weight, p: presence/absence).
+
 
 A more compact version of the network is available in JSON:
 > * [rppsf.json](https://github.com/scollinselliott/rppsf/blob/master/data/rppsf.json) - full semantic graph with nodes and links.
