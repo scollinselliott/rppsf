@@ -12,7 +12,7 @@ The code below depends on the following csv files which contain the semantic gra
 > * [nodes.csv](https://github.com/scollinselliott/rppsf/blob/master/data/nodes.csv) - the nodes of the network.
 > * [edges.csv](https://github.com/scollinselliott/rppsf/blob/master/data/edges.csv) - the links of the network.
 > * [sfcodes.csv](https://github.com/scollinselliott/rppsf/blob/master/data/sfcodes.csv) - a list of codes used for the RPP small finds assemblage, derived from [rppsfnodes.csv](https://github.com/scollinselliott/rppsf/blob/master/data/sfnodes.csv).
-> * [rppsfnodes.csv](https://github.com/scollinselliott/rppsf/blob/master/data/sfnodes.csv) - definitions and metrics of each artifact-type.
+> * [rppsfcodes.csv](https://github.com/scollinselliott/rppsf/blob/master/data/rppsfcodes.csv) - definitions and metrics of each artifact-type.
 > * [qmethod.csv](https://github.com/scollinselliott/rppsf/blob/master/data/qmethod.csv) - quantitative metric used for each artifact-type (c: count, w: weight, p: presence/absence).
 
 
