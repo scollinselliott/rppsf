@@ -58,6 +58,7 @@ with open('rppsf.csv', 'r') as csv_file:
                 rppsfcodes[j] = row[0]
 
 #define recursive trace function
+#http://stackoverflow.com/questions/4138851/recursive-looping-function-in-python
 def pathtrace(start, depth=10):
     """ negative depths means unlimited recursion """
     kats1 = []
