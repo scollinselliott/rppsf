@@ -9,20 +9,6 @@ library(cowplot)
 
 setwd("C:/...")  #insert working directory
 
-CNcoins = read.csv("gammavalues-['CN'].csv")
-PTcoins = read.csv("gammavalues-['PT'].csv")
-PIcoins = read.csv("gammavalues-['PI'].csv")
-MZcoins = read.csv("gammavalues-['MZ'].csv")
-daterange <- MZcoins[,1]
-
-CN.sub = read.csv("rmeancollected-subsampled-['CN'].csv")
-PT.sub = read.csv("rmeancollected-subsampled-['PT'].csv")
-PI.sub = read.csv("rmeancollected-subsampled-['PI'].csv")
-MZ.sub = read.csv("rmeancollected-subsampled-['MZ'].csv")
-
-setwd("C:/...") #insert working directory
-
-
 ######################
 mz1 = read.csv("result-MZ1.csv", header = TRUE)
 mz2 = read.csv("result-MZ2.csv", header = TRUE)
