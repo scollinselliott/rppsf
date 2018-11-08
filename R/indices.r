@@ -66,20 +66,6 @@ pt$MON	<-	NULL
 pi1$MON	<-	NULL
 pi2$MON	<-	NULL
 
-#mz1$exchange	<-	NULL
-#mz2$exchange	<-	NULL
-#mz3$exchange	<-	NULL
-#tb1$exchange	<-	NULL
-#tb2$exchange	<-	NULL
-#tb3$exchange	<-	NULL
-#cn1$exchange	<-	NULL
-#cn2$exchange	<-	NULL
-#sm$exchange	<-	NULL
-#pa$exchange	<-	NULL
-#pt$exchange	<-	NULL
-#pi1$exchange	<-	NULL
-#pi2$exchange	<-	NULL
-
 mz1label <- rep("MZ1",1000)
 mz2label <- rep("MZ2",1000)
 mz3label <- rep("MZ3",1000)
@@ -149,10 +135,7 @@ pi1 <- pi1[!apply(pi1 == 1, 1, FUN = any, na.rm = TRUE),]
 pi2 <- pi2[!apply(pi2 == 0, 1, FUN = any, na.rm = TRUE),]
 pi2 <- pi2[!apply(pi2 == 1, 1, FUN = any, na.rm = TRUE),]
 
-
 total <- rbind(mz1,mz2,mz3,pi1,pi2,cn1,cn2,sm,pa,pt,tb1,tb2,tb3)
-
-
 
 custom_plot <- function(.data, .title,
   colours = c("economic" = "#9e0142","agriculture" = "#d53e4f","livestock" = "#f46d43","craft.production" = "#fdae61","craft.refuse" = "#fee08b","exchange" = "#878787",  "domestic" = "#e6f598","personal" = "#abdda4","cultural" = "#66c2a5","transportation" = "#3288bd","real.estate" = "#5e4fa2")
@@ -164,9 +147,6 @@ scale_x_discrete(limits=c("economic","agriculture","livestock","craft.production
 theme_classic() + theme(axis.text.x = element_text(angle = 270, hjust = 0)) + theme(legend.position="none")  + 
       labs(x="", y="") + ggtitle(.title)
 }
-
-
-
 
 p.pi1 <- custom_plot(pi1, "PI1")
 p.pi2 <- custom_plot(pi2, "PI2")
@@ -183,9 +163,4 @@ p.tb2 <- custom_plot(tb2, "TB2")
 p.tb3 <- custom_plot(tb3, "TB3")
 
 plot_grid(p.pi1, p.pi2, p.sm, p.cn1, p.cn2, p.pa, p.pt, p.mz1, p.mz2, p.mz3, p.tb1, p.tb2, p.tb3, ncol=7)
-
-
-
-
-
 
