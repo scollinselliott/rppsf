@@ -1,4 +1,4 @@
-![Semantic graph](http://volweb.utk.edu/~scolli46/assets/images/fig04-952x620.png)
+![Semantic graph](http://volweb.utk.edu/~scolli46/assets/images/fig4-149mm-300dpi.png)
 
 # Small Finds from Roman Peasant Project (2009-2014):
 
