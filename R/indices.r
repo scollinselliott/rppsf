@@ -1,10 +1,10 @@
+library(MASS)
+library(dplyr)
 library(coda)
 library(ggplot2)
 library(reshape2)
 library(fitdistrplus)
 library(MCMCpack)
-library(fitdistrplus)
-library(devtools)
 library(cowplot)
 
 setwd("C:/...") #insert working directory
